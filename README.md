@@ -21,10 +21,4 @@ Como la aplicación hace uso de Api´s externas, se deben generar las key´s en 
 
 [OpenWeathermap](https://openweathermap.org/).
 
-### Configurar variables de entorno
-
-En la raiz del proyecto se encuentra el archivo .env_sample que sirve de modelo para configurar las variables de entorno que contendrán las key´s de las Api´s.
-Una vez modificado el archivo con los valores correctos de cada variable, se debe renombrar el archivo como .env para que funcione correctamente.
-Las apiKey generadas tanto para OpenWeathermap como para News API deben copiarse y agregarse sin comillas (") en la variable de entorno que corresponda.
-
-&copy; Derechos reservados 2020 - Hecho con 💙
+&copy; facufas1401@gmail.com 2021 - Hecho con <3

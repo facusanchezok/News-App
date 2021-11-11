@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Loader from "./Loader";
 import "../css/card.css";
-
+let REACT_APP_API_CLIMA = "e9bc4df95a6847524150b21e7636eec1";
 export default function ClimaApp() {
   //Guardo en variable apiKey de openweathermap.org
-  const apiKey = process.env.REACT_APP_API_CLIMA;
+  const apiKey = REACT_APP_API_CLIMA;
   const [coordenadas, setCoordenadas] = useState({
     latitud: 0,
     longitud: 0,
