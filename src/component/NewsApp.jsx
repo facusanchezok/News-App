@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import Loader from "./Loader";
 import NewsTarget from "./NewsTarget";
 
-let REACT_APP_APT_NOTICIAS = "c7064cdf93bb4ff095ed4cce04f35bcd";
 export default function NewsApp() {
   //Guardo en una variable la apiKey de newsapi.org
-  const apiKey = REACT_APP_APT_NOTICIAS;
+  const apiKey = process.env.REACT_APP_APT_NOTICIAS;
 
   const [noticias, setNoticias] = useState({
     articulos: [],
